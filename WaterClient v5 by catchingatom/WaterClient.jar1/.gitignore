@@ -1,0 +1,25 @@
+# gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# loom
+.fabric/
+run/
+
+# ide
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/
+
+# os
+.DS_Store
+Thumbs.db
+
+# the obfuscated jar this project was recovered from — keep it, it is the only
+# artifact of the original build. Remove this line if you would rather not track it.
+!WaterClient.jar
